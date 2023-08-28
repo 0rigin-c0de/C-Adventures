@@ -1,9 +1,10 @@
-// first prgram in C to print hello world 
+// first program in C to print Hello World 
 
 #include<stdio.h>
+#include<conio.h>
 
-int main()
-{
-    printf("Hello World This is my first program in C")
-    return 0;
+void main()
+{ 
+  printf("Hello World");
+  getch();
 }
